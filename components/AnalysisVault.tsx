@@ -6,7 +6,7 @@ interface AnalysisVaultProps {
   onLoad: (analysis: SavedAnalysis) => void;
   onDelete: (id: string) => void;
   onClose: () => void;
-  setToneProfile: (tone: ToneProfile) => void; // new: restore tone
+  setToneProfile: (tone: ToneProfile) => void; 
   focusMode: boolean;
 }
 
