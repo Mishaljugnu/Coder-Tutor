@@ -11,8 +11,6 @@ interface CodeAnimationPlayerProps {
 
 const renderMarkdown = (text: string | undefined | null) => {
     if (!text) return "";
-    
-    // Split by double newlines to create paragraph spacing
     const paragraphs = text.split(/\n\n+/);
     
     return paragraphs.map((para, pIdx) => {
