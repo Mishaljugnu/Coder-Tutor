@@ -310,7 +310,7 @@ const CodeLearner: React.FC<CodeLearnerProps> = ({ profile, focusMode }) => {
         ))}
       </div>
 
-      {/* TAB TERMINAL - EXPANDED FOR BETTER INFORMATIONAL DENSITY */}
+      {/* TAB TERMINAL -EXPANDED FOR BETTER INFORMATIONAL DENSITY */}
       <div className={`${focusMode ? 'bg-[#1e293b] border border-slate-600 shadow-xl' : 'pixel-card overflow-hidden bg-slate-900 shadow-[12px_12px_0_0_#000]'}`}>
         <div className={`flex ${focusMode ? 'bg-[#334155] border-b border-slate-600' : 'border-b-4 border-slate-950 bg-slate-800'}`}>
           <TabButton active={activeTab === 'what'} label={labels.what} icon={icons.what} onClick={() => setActiveTab('what')} focusMode={focusMode} />
