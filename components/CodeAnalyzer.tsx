@@ -387,7 +387,6 @@ const CodeAnalyzer: React.FC<CodeAnalyzerProps> = ({
 >
   {err.message}
 </div>
-
                 </div>
               ))}
             </div>
